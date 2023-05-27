@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSE 121b: Week 05 | My project</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="menu">
+            <li><a id="toggleMenu">&equiv;</a></li>
+            <li><a href="#" class="active">Lesson 5</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Universities Per Country</h1>
+    </header>
+    <main>
+        <section> 
+            <h2>
+                Welcome!
+            </h2>
+            <h3>
+                <span>You just need to choose a country and you will see a list of the Universites of that place</span>
+            </h3>
+        </section>
+        <hr>
+        <section>
+            <h2>SELECT A COUNTRY</h2>
+            <p>
+                Sort by: 
+                <select id="selectCountry">
+                    <option value="">Select a country</option>
+                </select>
+            </p>
+
+            <div id="universities">
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        &copy;<span id="year"></span> | Controlling Your Code | Lesson 5
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
